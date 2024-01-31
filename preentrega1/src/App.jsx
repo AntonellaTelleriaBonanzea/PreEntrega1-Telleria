@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <NavBar/>
-      <Products/>
+      <Products titulo ={"soy un titulo"}/>
       <Button/>
-      <Products/>
+      <Products titulo ={"soy un titulo 2"}/>
       <Button/>
       <Footer/>
        

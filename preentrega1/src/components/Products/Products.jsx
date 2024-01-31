@@ -1,12 +1,12 @@
 import React from 'react'
 
-export const Products = () => {
+export const Products = ({titulo}) => {
   return (
     <div>
 
         <h1>
             <img src="#" alt="imagen del libro" />
-            <p>TITULO </p>
+            <p>{titulo}</p>
         </h1>
         <h2>
             Autor
